@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fashionista-shop/static/css/main.dd53737f.css",
+    "main.js": "/fashionista-shop/static/js/main.085abffb.js",
+    "static/js/787.c2969506.chunk.js": "/fashionista-shop/static/js/787.c2969506.chunk.js",
+    "index.html": "/fashionista-shop/index.html",
+    "main.dd53737f.css.map": "/fashionista-shop/static/css/main.dd53737f.css.map",
+    "main.085abffb.js.map": "/fashionista-shop/static/js/main.085abffb.js.map",
+    "787.c2969506.chunk.js.map": "/fashionista-shop/static/js/787.c2969506.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd53737f.css",
+    "static/js/main.085abffb.js"
+  ]
+}

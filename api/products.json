@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Сарафан з квітковим принтом та бретелями-зав'язками",
+    "price": 1272,
+    "img": "./images/sarafan-z-kvitkovim-printom-ta-bretelyami-zav-yazkami.jpg",
+    "sku": 10001,
+    "color": "Зелений"
+  },
+  {
+    "name": "Сукня-комбінація з декоративними ґудзиками та розрізом",
+    "price": 1112,
+    "img": "./images/suknya-kombinaciya-z-dekorativnimi-gudzikami-ta-rozrizom.jpg",
+    "sku": 10002,
+    "color": "Фуксія"
+  },
+  {
+    "name": "Сукня з принтом polka dot з імітацією бюстьє",
+    "price": 1192,
+    "img": "./images/suknya-z-printom-polka-dot-z-imitaciyeyu-byustye.jpg",
+    "sku": 10003,
+    "color": "Рожевий"
+  },
+  {
+    "name": "Спідниця cатинова на запах",
+    "price": 712,
+    "img": "./images/spidnicya-catinova-na-zapakh.jpg",
+    "sku": 10004,
+    "color": "Блакитний"
+  },
+  {
+    "name": "Спідниця-трапеція з штучної шкіри",
+    "price": 712,
+    "img": "./images/spidnicya-trapeciya-z-shtuchnoyi-shkiri.jpg",
+    "sku": 10005,
+    "color": "Пісочний"
+  },
+  {
+    "name": "Спідниця з плісируванням",
+    "price": 712,
+    "img": "./images/spidnicya-z-plisiruvannyam.jpg",
+    "sku": 10006,
+    "color": "Фуксія"
+  },
+  {
+    "name": "Топ текстурований з блискавкою",
+    "price": 472,
+    "img": "./images/top-teksturovanij-z-bliskavkoyu.jpg",
+    "sku": 10007,
+    "color": "Чорний"
+  },
+  {
+    "name": "Топ з драпіруванням та зав'язкою",
+    "price": 952,
+    "img": "./images/top-z-drapiruvannyam-ta-zav-yazkoyu.jpg",
+    "sku": 10008,
+    "color": "Блакитний"
+  },
+  {
+    "name": "Топ з відкритими плечима",
+    "price": 552,
+    "img": "./images/top-z-vidkritimi-plechami.jpg",
+    "sku": 10009,
+    "color": "Рожевий"
+  },
+  {
+    "name": "Джинси MOM BASIC з горизонтальними потертостями",
+    "price": 760,
+    "img": "./images/dzhinsi-mom-basic-z-gorizontalnimi-potertostyami.jpg",
+    "sku": 10010,
+    "color": "Синій"
+  },
+  {
+    "name": "Джинси MOM STRAIGHT з рваностями",
+    "price": 792,
+    "img": "./images/dzhinsi-mom-straight-z-rvanostyami.jpg",
+    "sku": 10011,
+    "color": "Білий"
+  },
+  {
+    "name": "Джинси MOM висвітлені з ґудзиками",
+    "price": 792,
+    "img": "./images/dzhinsi-mom-visvitleni-z-gudzikami.jpg",
+    "sku": 10012,
+    "color": "Блакитний"
+  }
+]
