@@ -1,0 +1,33 @@
+.form__field {
+  display: flex;
+  flex-direction: column;
+  &__label {
+    font-weight: 200;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  &__input {
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    transition: all 0.3s ease;
+    border: 1px solid rgb(118, 118, 118);
+    &:active,
+    &:focus {
+      border: 1px solid #bd9773;
+    }
+    &:hover {
+      border: 1px solid black;
+    }
+  }
+}
+
+.error {
+  color: rgb(210, 31, 60);
+  font-weight: 200;
+}
+
+.is-invalid {
+  border: 1px solid rgb(210, 31, 60);
+}

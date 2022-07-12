@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> component should match snapshot 1`] = `
+<div>
+  <div
+    class="modal"
+  >
+    <div
+      class="modal__header"
+    >
+      <button
+        class="modal__header__btn"
+        type="button"
+      >
+        ×
+      </button>
+    </div>
+    <div
+      class="modal__content"
+    >
+      <p
+        class="modal__content__text"
+      />
+      <button
+        class="modal__content__btn"
+        type="button"
+      >
+        Ок
+      </button>
+      <button
+        class="modal__content__btn"
+        type="button"
+      >
+        Скасувати
+      </button>
+    </div>
+  </div>
+  <div
+    class="backdrop"
+  />
+</div>
+`;
+
+exports[`<Modal /> component should render 1`] = `
+<div>
+  <div
+    class="modal"
+  >
+    <div
+      class="modal__header"
+    >
+      <button
+        class="modal__header__btn"
+        type="button"
+      >
+        ×
+      </button>
+    </div>
+    <div
+      class="modal__content"
+    >
+      <p
+        class="modal__content__text"
+      />
+      <button
+        class="modal__content__btn"
+        type="button"
+      >
+        Ок
+      </button>
+      <button
+        class="modal__content__btn"
+        type="button"
+      >
+        Скасувати
+      </button>
+    </div>
+  </div>
+  <div
+    class="backdrop"
+  />
+</div>
+`;

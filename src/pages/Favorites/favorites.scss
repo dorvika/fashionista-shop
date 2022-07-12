@@ -1,0 +1,12 @@
+.info {
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 550px) {
+  .info {
+    font-size: 25px;
+  }
+}

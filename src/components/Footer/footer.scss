@@ -1,0 +1,22 @@
+.footer {
+  justify-content: flex-end;
+  margin-top: auto;
+  padding: 10px 0 20px 0;
+  &__text {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  a {
+    color: #bd9773;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    &__text {
+      font-size: 13px;
+    }
+  }
+}

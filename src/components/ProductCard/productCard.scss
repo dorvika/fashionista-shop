@@ -1,0 +1,165 @@
+.card,
+.card__list {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: box-shadow 0.5s ease;
+}
+
+.card {
+  &__title,
+  &__list-title,
+  &__price,
+  &__list-price {
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+  }
+}
+
+.card {
+  &__price,
+  &__list-price {
+    flex-grow: 1;
+  }
+}
+
+.card {
+  &__btn,
+  &__list-btn {
+    cursor: pointer;
+    min-height: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+    border: 1px solid transparent;
+    outline: none;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+    }
+  }
+}
+
+.card__list {
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+
+  &-title,
+  &-price {
+    font-size: 16px;
+  }
+
+  &-title {
+    margin-left: 60px;
+    width: 30%;
+  }
+
+  &-btn {
+    padding: 10px 20px;
+    margin-right: 40px;
+    font-size: 16px;
+  }
+  &:hover {
+    box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.card {
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &__img {
+    max-width: 100%;
+
+    &-container {
+      position: relative;
+      max-height: 320px;
+    }
+  }
+
+  &__star__icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  &__title {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  &__title,
+  &__price {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  &__btn {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  &:hover &__btn {
+    opacity: 1;
+  }
+
+  &:hover {
+    box-shadow: 5px -6px 13px -2px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .card__list {
+    &-title {
+      margin-left: 10px;
+    }
+
+    &-btn {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    &__btn {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card__list {
+    flex-direction: column;
+    &-title {
+      min-height: 60px;
+      width: 100%;
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-title,
+    &-price {
+      font-size: 14px;
+    }
+
+    &-btn {
+      width: 100%;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-right: 0;
+    }
+  }
+}
